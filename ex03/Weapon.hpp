@@ -6,7 +6,6 @@
 class Weapon {
 public:
   Weapon(void);
-  Weapon(Weapon &weapon);
   Weapon(std::string type);
   ~Weapon(void);
   const std::string &getType(void);
